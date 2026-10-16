@@ -1,0 +1,205 @@
+{
+  "meta": { "description": "AKAM Machine — a showcase and catalog of industrial machinery: excavators, lifting equipment, compaction and power generation." },
+  "pages": {
+    "home": { "title": "Industrial machinery catalog" },
+    "catalog": { "title": "Product catalog" },
+    "about": { "title": "About us" },
+    "contact": { "title": "Contact us" },
+    "notFound": { "title": "Page not found" }
+  },
+  "nav": {
+    "label": "Main navigation",
+    "products": "Products",
+    "about": "About us",
+    "contact": "Contact",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "skip": "Skip to main content",
+    "home": "AKAM Machine — home",
+    "language": "Language"
+  },
+  "cta": {
+    "quote": "Get a quote",
+    "learnMore": "Learn more",
+    "viewCatalog": "Browse the catalog",
+    "viewAll": "View all products",
+    "reachOut": "Reach out",
+    "viewDetails": "View details",
+    "send": "Send message",
+    "back": "Back to catalog",
+    "requestQuote": "Request a quote",
+    "browseCategory": "Browse this category"
+  },
+  "hero": {
+    "title": "Powering industrial work without limits, at scale",
+    "subtitle": "Excavators, lifting, compaction and power — one catalog.",
+    "visualLabel": "Illustration of a crawler excavator"
+  },
+  "about": {
+    "kicker": "About us",
+    "title": "Machinery engineered for the world's most demanding job sites.",
+    "body": "Every AKAM Machine product is specified around real site conditions, from planning through daily operation.",
+    "card1": {
+      "title": "Power",
+      "p1": "Heavy-duty engines tuned for continuous work",
+      "p2": "Reinforced frames for difficult terrain",
+      "p3": "Operator-first controls and visibility",
+      "p4": "Service-friendly layouts that cut downtime"
+    },
+    "card2": {
+      "title": "Proven",
+      "body": "Built around operational accuracy, careful planning and machines designed for industrial-scale work."
+    }
+  },
+  "categories": {
+    "kicker": "Range",
+    "title": "Machine categories",
+    "items": {
+      "excavation": {
+        "name": "Excavation",
+        "desc": "Crawler excavators from compact to heavy class for digging, loading and site preparation.",
+        "p1": "Compact to heavy classes",
+        "p2": "Multiple bucket options",
+        "p3": "Efficient hydraulics",
+        "p4": "Comfortable operator cab"
+      },
+      "lifting": {
+        "name": "Lifting & handling",
+        "desc": "Cranes, telescopic handlers and forklifts for lifting and moving loads on site.",
+        "p1": "Mobile and rough-terrain units",
+        "p2": "Stable load handling",
+        "p3": "Wide range of capacities",
+        "p4": "Clear operator visibility"
+      },
+      "compaction": {
+        "name": "Compaction",
+        "desc": "Road rollers for compacting soil, base layers and asphalt on roads and platforms.",
+        "p1": "Single and tandem drums",
+        "p2": "Vibratory systems",
+        "p3": "Even compaction results",
+        "p4": "Easy daily maintenance"
+      },
+      "power": {
+        "name": "Power generation",
+        "desc": "Enclosed diesel generator sets for standby and prime power at industrial sites.",
+        "p1": "Standby and prime duty",
+        "p2": "Sound-attenuated enclosures",
+        "p3": "Simple monitoring panel",
+        "p4": "Scalable capacity"
+      }
+    }
+  },
+  "featured": { "kicker": "Featured", "title": "Featured machines" },
+  "stats": {
+    "kicker": "The range",
+    "title": "The catalog at a glance",
+    "models": "Models in the catalog",
+    "categories": "Machine categories",
+    "languages": "Interface languages",
+    "maxPower": "Highest engine power"
+  },
+  "process": {
+    "kicker": "Process",
+    "title": "From need to machine",
+    "s1": { "title": "Consult", "body": "Tell us about your site and the work you need done." },
+    "s2": { "title": "Match", "body": "We help you choose the model that fits the job." },
+    "s3": { "title": "Deliver", "body": "Agree the details and plan delivery and handover." }
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Frequently asked questions",
+    "helpTitle": "Have any questions?",
+    "helpBody": "We're here to help. Reach out anytime and our team will get back to you.",
+    "q1": { "q": "What kinds of machines are in the catalog?", "a": "The catalog covers excavators, lifting and handling equipment, road rollers and diesel generator sets." },
+    "q2": { "q": "How do I request a quote?", "a": "Open a product page and choose Request a quote, or use the contact form and tell us which model interests you." },
+    "q3": { "q": "Can I compare models?", "a": "Use the catalog filters and sorting to line up models by category, engine power or weight, then open each page for the full specifications." },
+    "q4": { "q": "Which languages does the site support?", "a": "The interface is available in Persian, English, Arabic and Russian, and switches layout direction automatically." },
+    "q5": { "q": "Is the product information final?", "a": "Specifications shown here are sample content for this showcase. Confirm details with our team before ordering." }
+  },
+  "catalog": {
+    "title": "Product catalog",
+    "subtitle": "Browse machines by category, search by model, and sort by power or weight.",
+    "search": "Search products",
+    "searchPlaceholder": "Search by model or name",
+    "categoryFilter": "Filter by category",
+    "all": "All",
+    "sort": {
+      "label": "Sort by",
+      "name": "Model name",
+      "powerDesc": "Power: high to low",
+      "powerAsc": "Power: low to high",
+      "weightAsc": "Weight: light to heavy"
+    },
+    "results_one": "{{formatted}} product",
+    "results_other": "{{formatted}} products",
+    "noResults": { "title": "No products found", "body": "Try a different search term or clear the filters." },
+    "reset": "Clear filters",
+    "loadMore": "Show more",
+    "sampleNote": "Product data on this site is sample content for demonstration purposes."
+  },
+  "product": {
+    "model": "Model",
+    "overview": "Overview",
+    "specs": "Specifications",
+    "features": "Highlights",
+    "related": "More in this category",
+    "breadcrumb": "Catalog",
+    "notFound": { "title": "Product not found", "body": "This product does not exist or is no longer listed." }
+  },
+  "specs": {
+    "power": "Engine power",
+    "weight": "Operating weight",
+    "bucketCapacity": "Bucket capacity",
+    "liftCapacity": "Lift capacity",
+    "drumWidth": "Drum width",
+    "output": "Output"
+  },
+  "units": { "kw": "kW", "t": "t", "m3": "m³", "m": "m", "kva": "kVA" },
+  "products": {
+    "ak-120": { "name": "Compact crawler excavator", "summary": "Agile mini excavator for tight urban sites and utility trenching." },
+    "ak-210": { "name": "Crawler excavator", "summary": "All-round 21-tonne class excavator for earthmoving and site preparation." },
+    "ak-350": { "name": "Heavy crawler excavator", "summary": "35-tonne class machine built for quarries and large-scale earthmoving." },
+    "ak-lf20": { "name": "Telescopic handler", "summary": "Versatile handler for lifting and placing loads across uneven ground." },
+    "ak-cr50": { "name": "Mobile crane", "summary": "50-tonne class mobile crane for heavy lifting on industrial projects." },
+    "ak-fk35": { "name": "Rough-terrain forklift", "summary": "Rugged forklift for material handling in yards and on construction sites." },
+    "ak-rl10": { "name": "Single-drum road roller", "summary": "10-tonne class roller for soil and base-layer compaction." },
+    "ak-rl14": { "name": "Tandem vibratory roller", "summary": "14-tonne class roller for asphalt compaction on roads and platforms." },
+    "ak-pg100": { "name": "Diesel generator set, 100 kVA", "summary": "Enclosed diesel generator for standby and prime power on site." },
+    "ak-pg500": { "name": "Diesel generator set, 500 kVA", "summary": "High-capacity generator set for industrial plants and large projects." }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Tell us what you need and we will help you find the right machine.",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "company": "Company (optional)",
+      "interest": "Product of interest",
+      "interestGeneral": "General enquiry",
+      "message": "Message",
+      "submit": "Send message"
+    },
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "message": "Please write a short message."
+    },
+    "status": "Your email app should open with the message ready to send. If it does not, write to us at the address on this page.",
+    "mailSubject": "Enquiry from the AKAM Machine website",
+    "details": {
+      "title": "Contact details",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    }
+  },
+  "footer": {
+    "tagline": "Industrial machinery for demanding work.",
+    "quick": "Quick links",
+    "categories": "Categories",
+    "language": "Language",
+    "rights": "© {{year}} AKAM Machine. All rights reserved."
+  },
+  "notFound": { "title": "Page not found", "body": "The page you are looking for does not exist or has moved.", "home": "Back to home" }
+}

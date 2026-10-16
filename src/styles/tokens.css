@@ -1,0 +1,103 @@
+/*
+ * Design tokens — derived from the AKAM Machine brand guidelines (June 2024).
+ * Brand colors: yellow #FFCF05, amber #FAB732 (gradient pair), black #000, gray #B3B3B2.
+ * Typefaces: Bebas Neue (titles) + Peyda (text). Peyda is not on npm, so it is used when installed
+ * locally and otherwise falls back to Vazirmatn (fa/ar) or Inter (en/ru). See README.
+ */
+@font-face {
+  font-family: 'Peyda';
+  font-display: swap;
+  src: local('Peyda'), local('Peyda Regular');
+}
+
+:root {
+  /* Brand */
+  --color-yellow: #ffcf05;
+  --color-amber: #fab732;
+  --color-black: #000000;
+  --color-gray: #b3b3b2;
+  --color-white: #ffffff;
+  --gradient-brand: linear-gradient(135deg, var(--color-yellow), var(--color-amber));
+
+  /* Semantic */
+  --color-bg: var(--color-black);
+  --color-surface: #0f0f0f;
+  --color-surface-2: #181818;
+  --color-border: rgb(255 255 255 / 0.16);
+  --color-border-strong: rgb(255 255 255 / 0.32);
+  --color-text: var(--color-white);
+  --color-text-muted: var(--color-gray);
+  --color-accent: var(--color-yellow);
+  --color-on-accent: var(--color-black);
+  --color-danger: #ff7a70;
+  --color-focus: var(--color-white);
+
+  /* Typography */
+  --font-body: 'Peyda', 'Vazirmatn', 'Inter Variable', system-ui, sans-serif;
+  --font-title: 'Peyda', 'Vazirmatn', 'Inter Variable', system-ui, sans-serif;
+  --title-weight: 900;
+  --title-transform: none;
+  --title-tracking: 0;
+  --title-leading: 1.2;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1rem;
+  --text-lg: 1.1875rem;
+  --text-xl: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --text-2xl: clamp(1.75rem, 1.3rem + 1.8vw, 2.5rem);
+  --text-3xl: clamp(2.25rem, 1.4rem + 3.6vw, 4.25rem);
+  --text-display: clamp(2.75rem, 1.2rem + 6vw, 6.5rem);
+  --leading-body: 1.7;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+  --section-space: clamp(3.5rem, 8vw, 7rem);
+
+  /* Layout */
+  --container: 80rem;
+  --container-pad: clamp(1rem, 4vw, 3rem);
+  --header-height: 4.5rem;
+
+  /* Shape — the brand uses sharp, angular forms */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --notch: 0.75rem;
+  --border: 1px solid var(--color-border);
+
+  /* Elevation & motion */
+  --shadow-card: 0 18px 40px -24px rgb(0 0 0 / 0.9);
+  --shadow-glow: 0 0 0 1px var(--color-yellow), 0 18px 40px -22px rgb(255 207 5 / 0.45);
+  --duration-fast: 150ms;
+  --duration-base: 280ms;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* Breakpoints (documentation only — CSS custom properties cannot be used in media queries):
+     sm 600px · md 900px · lg 1200px */
+}
+
+html[lang='en'] {
+  --font-body: 'Peyda', 'Inter Variable', system-ui, sans-serif;
+  --font-title: 'Bebas Neue', 'Inter Variable', Impact, sans-serif;
+  --title-weight: 400;
+  --title-transform: uppercase;
+  --title-tracking: 0.01em;
+  --title-leading: 0.98;
+}
+
+html[lang='ru'] {
+  --font-body: 'Inter Variable', system-ui, sans-serif;
+  --font-title: 'Inter Variable', system-ui, sans-serif;
+  --title-weight: 800;
+  --title-transform: uppercase;
+  --title-tracking: -0.01em;
+  --title-leading: 1.05;
+}
